@@ -1,7 +1,5 @@
-# frozen_string_literal: true
-
-class HelloWorldController < ApplicationController
-  layout 'hello_world'
+class HelloWorldController < LoggedInController
+  layout 'hello_world'.freeze
 
   def index
     @hello_world_props = { name: 'Loft47' }

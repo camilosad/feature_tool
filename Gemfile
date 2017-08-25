@@ -17,7 +17,7 @@ gem 'webpacker_lite'
 
 group :development, :test do
   gem 'capybara', '~> 2.13'
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'pry-remote'

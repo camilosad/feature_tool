@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "postinstall": "cd client && yarn install"
+    "postinstall": "cd client && yarn install",
+    "test": "cd client && npm test"
   },
   "name": "feature_tool",
   "private": true,
