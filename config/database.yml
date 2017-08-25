@@ -1,0 +1,15 @@
+common: &common
+  adapter: postgresql
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *common
+  database: "ft_dev"
+test:
+  <<: *common
+  database: "ft_test"
+
+production:
+  <<: *common
+  database: "ft_prod"
