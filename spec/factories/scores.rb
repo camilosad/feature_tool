@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :score do
-    value { 3 }
+    value { 1 }
     association :measure
     association :feature
     association :user
