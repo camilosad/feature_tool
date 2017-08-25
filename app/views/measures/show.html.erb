@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Section:</strong>
+  <%= @measure.section %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @measure.name %>
+</p>
+
+<p>
+  <strong>Hint:</strong>
+  <%= @measure.hint %>
+</p>
+
+<p>
+  <strong>Start hint:</strong>
+  <%= @measure.start_hint %>
+</p>
+
+<p>
+  <strong>End hint:</strong>
+  <%= @measure.end_hint %>
+</p>
+
+<p>
+  <strong>Required:</strong>
+  <%= @measure.required %>
+</p>
+
+<p>
+  <strong>Allocation percent:</strong>
+  <%= @measure.allocation_percent %>
+</p>
+
+<%= link_to 'Edit', edit_measure_path(@measure) %> |
+<%= link_to 'Back', measures_path %>

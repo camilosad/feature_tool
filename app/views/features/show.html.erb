@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @feature.user.name %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @feature.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @feature.description %>
+</p>
+
+<p>
+  <strong>Stakeholder:</strong>
+  <%= @feature.stakeholder %>
+</p>
+
+<p>
+  <strong>Documentation:</strong>
+  <%= @feature.documentation %>
+</p>
+
+<p>
+  <strong>Required at:</strong>
+  <%= @feature.required_at %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @feature.created_at %>
+</p>
+<%= link_to 'Edit', edit_feature_path(@feature) %> |
+<%= link_to 'Back', features_path %>
